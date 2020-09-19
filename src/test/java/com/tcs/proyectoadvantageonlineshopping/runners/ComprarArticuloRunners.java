@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/comprar_articulo.feature",
         snippets = SnippetType.CAMELCASE,
         glue = "com.tcs.proyectoadvantageonlineshopping",
-        tags = "@agregar")
+        tags = "")
 public class ComprarArticuloRunners {
 }

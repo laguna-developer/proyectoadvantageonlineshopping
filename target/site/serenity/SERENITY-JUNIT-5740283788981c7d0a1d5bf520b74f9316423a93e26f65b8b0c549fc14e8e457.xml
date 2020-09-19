@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Compra Articulos" skipped="0" tests="1" time="25.29" timestamp="2020-09-16 06:06:23"><testcase name="agregar articulos al carrito de compras"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Compra Articulos" skipped="0" tests="2" time="87.08" timestamp="2020-09-18 12:05:55"><testcase name="agregar articulos al carrito de compras"/><testcase name="pagar articulos"/></testsuite>
