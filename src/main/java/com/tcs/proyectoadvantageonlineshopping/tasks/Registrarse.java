@@ -22,7 +22,7 @@ public class Registrarse implements Task {
     private String address;
     private String province;
     private String codePostal;
-    private DatosRegistro datosRegistro;
+    //private DatosRegistro datosRegistro;
 
     public Registrarse(String username, String email, String password, String confirmPassword, String firstName, String lastName, String phoneNumber, String country, String city, String address, String province, String codePostal) {
         this.username = username;
@@ -37,7 +37,7 @@ public class Registrarse implements Task {
         this.address = address;
         this.province = province;
         this.codePostal = codePostal;
-        this.datosRegistro = datosRegistro;
+        //this.datosRegistro = datosRegistro;
     }
 
 

@@ -7,7 +7,6 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Open;
@@ -15,7 +14,6 @@ import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Managed;
-import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
@@ -34,7 +32,6 @@ public class RegistroStepDefinitions {
     public void setUpOnStage() {
         OnStage.setTheStage(Cast.whereEveryoneCan(BrowseTheWeb.with(elNavegador)));
         OnStage.theActorCalled("Nicolas Alvarino");
-
     }
 
     @Managed
@@ -56,10 +53,7 @@ public class RegistroStepDefinitions {
 
     @Then("^el deberia ver el nombre del usuario: (.*)$")
     public void elDeberiaVerElNombreDelUsuario(String username) {
-        // String username = theActorInTheSpotlight().recall("username");
         theActorInTheSpotlight().should(seeThat(ElUsuario.registrado(), is(equalTo(username))));
-        //theActorInTheSpotlight().should(seeThat(ElUsuario.logueado(), is(equalTo(perfil))));
-
     }
 
 
