@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Compra Articulos" skipped="0" tests="2" time="44.75" timestamp="2020-09-20 12:48:37"><testcase name="agregar articulos al carrito de compras"/><testcase name="pagar articulos"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Compra Articulos" skipped="0" tests="2" time="76.29" timestamp="2021-04-06 11:09:56"><testcase name="agregar articulos al carrito de compras"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //article[@id='our_products']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //article[@id='our_products']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //article[@id='our_products']&#13;
+com.tcs.proyectoadvantageonlineshopping.stepdefinitions.ComprarArticuloStepDefinitions.queNicolasAlvarinoSeEncuentraLogueado(ComprarArticuloStepDefinitions.java:35)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="pagar articulos"><error message="element not interactable&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-55SJDEF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\NICOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1eb2864e0702424ba16d13bc36a3d8cb" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-55SJDEF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\NICOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eb2864e0702424ba16d13bc36a3d8cb</error><system-err>element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-55SJDEF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\NICOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eb2864e0702424ba16d13bc36a3d8cb&#13;
+com.tcs.proyectoadvantageonlineshopping.tasks.PagarProductos.performAs(PagarProductos.java:34)&#13;
+com.tcs.proyectoadvantageonlineshopping.stepdefinitions.ComprarArticuloStepDefinitions.elRealizaElPagoOnline(ComprarArticuloStepDefinitions.java:51)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
